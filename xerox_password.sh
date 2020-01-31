@@ -35,6 +35,6 @@ if [[ -n "$username" ]] || [[ -n "$password" ]] || [[ -n "$domain" ]]; then
 else
 	echo "No ldap username or password found"
 fi
-#rm CloningManifest.xml
-#rm -rf data/
+rm CloningManifest.xml
+rm -rf data/
 rm test.dlm
